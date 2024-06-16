@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การสร้างช่องรับตัวเลขด้วยอิลีเมนต์ประเภท number</title>
+</head>
+<body>
+    <form id ="form1">
+        <label for="txtFullName">ชื่อ-สกุล :</label>
+        <input id="txtFullName" type="text" 
+                autofocus="autofocus" maxlength="50"
+                placeholder="กรุณาป้อนชื่อ-สกุล" required /><br />
+
+        <label for="txtAddress">ที่อยู่ :</label>
+        <input id="txtAddress" type="text" maxlength="200"
+                placeholder="กรุณาป้อนที่อยู่" required /><br />
+        
+        <label for="txtSalary">เงินเดือน :</label>
+        <input id="txtSalary" type="number" 
+                min="0" max="100000" step="500"
+                value="20000"><br />
+     
+        <button type="submit">บันทึก</button>
+        <button type="button">ยกเลิก</button>
+    </form>    
+</body>
+</html>

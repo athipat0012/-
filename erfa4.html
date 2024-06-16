@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>การทำช่องใส่รหัสผ่าน Password</title>
+</head>
+<body>
+    <form id="frmLogin" action="#">
+        <fieldset>
+            <legend>Login เข้าสู่ระบบ</legend>
+            <label for="UserName">UserName : </label>
+            <input type="text" name="UserName" 
+                    placeholder="User Name" required autofocus /><br />
+
+            <label for="Password">Password : </label>
+            <input type="password" name="Password"
+                    placeholder="รหัสผ่าน" required /><br />
+
+            <label for="PasswordAgain">UserName อีกครั้ง : </label>
+            <input type="password" name="PasswordAgain" 
+                    placeholder="รหัสผ่านอีกครั้ง" required /><br />
+            <input type="submit" name="cmdLogin" value="Login">
+            <input type="button" name="cmdCancel" value="Cancel">
+        </fieldset>
+    </form>
+</body>
+</html>
